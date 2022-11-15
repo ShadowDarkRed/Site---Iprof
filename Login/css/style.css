@@ -1,0 +1,88 @@
+body{
+    font-family: sans-serif;
+    background: #000;
+}
+
+.form{
+    width: 400px;
+    margin: auto;
+    padding-top: 40px;
+}
+
+.card{
+  box-shadow: 1px 1px 5px #160616;  
+  background-color: #23232e ;
+  padding: 30px;
+  border-radius: 5px;
+}
+
+.card-top{
+  text-align: center;  
+}
+
+.card-group{
+    margin-bottom: 10px;
+}
+
+.card-group > label{
+    width: 100%;
+    color: #838383;
+    display: block;
+
+}
+
+.card-group > input{
+border-radius: 5px;
+outline: 0;
+width: 100%;
+height: 25px;
+padding: 5px;
+}
+
+.card-group-check {
+    color: #838383;
+    outline: 0;
+}
+
+.card-group-check:hover {
+    outline: 0;
+    color: #777777;
+
+
+}
+
+.button{
+    margin-top: 20px;
+    background: #23232e;
+    width: 100%;
+    border-radius: 25px;
+    padding: 15px 25px;
+    color: #838383;
+    border: 2px solid #18181f;
+    outline: 0;
+    font-weight: 600;
+    font-size: 16px;
+    border-bottom: 5px solid #160616 ;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.button:hover{
+transform: translate(0px, -1px);
+transition: 0.3s;
+letter-spacing: 1px;
+}
+
+.button:active{
+    color: #dbdada;
+    transform: scale(1.05);
+    transition: all 0.5s;
+}
+
+.imglogin{
+   width: 125px;
+}
+
+.title{
+    color:#838383;
+}
